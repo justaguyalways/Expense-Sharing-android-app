@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/everywhere_background"
+    tools:context=".HistoryActivity"
+    >
+
+    <Button
+        android:id="@+id/eventConfirm"
+        android:layout_width="205dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="80dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Confirm Event"
+
+      />
+    <TextView
+        android:id="@+id/TestField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textSize="40dp">
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:hint="@string/previous_events"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/dropdown_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+           />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

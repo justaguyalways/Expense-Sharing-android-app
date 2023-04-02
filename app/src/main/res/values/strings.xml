@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Expense_sharing</string>
+    <string name="sign_out">Sign-Out</string>
+    <string name="view_existing_groups">View existing groups</string>
+    <string name="add_a_new_group">Add a new group</string>
+    <string name="view_existing_debts">View existing debts</string>
+    <string name="previous_events">Previous Events</string>
+</resources>
